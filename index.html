@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HNGx stage one task</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section>
+        <!-- slack user name  -->
+        <h2 data-testid="slackUserName">James Victor</h2>
+
+        <!-- slack profile picture -->
+        <div class="profilepic">
+            <img data-testid="slackDisplayImage" src="./asset/profilePicture.jpg" alt="JamesVictor"/>
+        </div>
+
+        <!-- current day of the week and UTC Time -->
+        <div class="utc">
+             <h2 data-testid="currentDayOfTheWeek">monday</h2>
+             <span data-testid="currentUTCTime">23:00 am</span>
+        </div>
+
+        <div data-testid="myTrack">Frontend developer</div>
+
+        <!-- link to github repository holding the sources file -->
+        <div>
+            <a href="#">Github repository</a>
+        </div>
+    </section>
     <script src="index.js"></script>
 </body>
 </html>

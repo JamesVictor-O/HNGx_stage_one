@@ -1,0 +1,23 @@
+section{
+    width: 30%;
+}
+[data-testid="slackUserName"]{
+    font-size: 25px;
+    color: red;
+    font-family: sans-serif;
+}
+
+.profilepic{
+    width: 300px;
+}
+[data-testid="slackDisplayImage"]{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.utc{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
