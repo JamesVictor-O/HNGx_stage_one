@@ -1,10 +1,10 @@
 function UTUtimeUpdate() {
     const utuTimeContainer = document.querySelector('[data-testid="currentUTCTime"]');
-    const currentUTCTime = new Date().getMilliseconds();
+    const currentUTCTime = Date.now();
     utuTimeContainer.innerHTML=`Time: ${currentUTCTime}`
 }
-UTUtimeUpdate()
-
+// UTUtimeUpdate()
+setInterval(UTUtimeUpdate, 2000)
 function currentDay() {
     const currentDayContainer = document.querySelector('[data-testid="currentDayOfTheWeek"]');
     const currentDay = new Date().getDay()

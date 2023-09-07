@@ -1,5 +1,8 @@
-section{
-    width: 30%;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 [data-testid="slackUserName"]{
     font-size: 25px;
@@ -14,6 +17,11 @@ section{
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+.track{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
 }
 .utc{
     width: 300px;
